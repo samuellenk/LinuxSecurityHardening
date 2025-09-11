@@ -1,0 +1,58 @@
+include <tunables/global>
+
+# AppArmor policy for apache2
+# ### SamuelLenk ###
+# No template variables specified
+
+/usr/sbin/apache2 {
+  include <abstractions/base>
+  include <abstractions/nameservice>
+  include <abstractions/web-data>
+
+  capability kill,
+  capability net_bind_service,
+  capability setuid,
+  capability setgid,
+  capability sys_chroot,
+
+  network inet stream,
+  network inet6 stream,
+  network inet dgram,
+  network inet6 dgram,
+  network netlink raw,
+
+  /dev/log w,
+  /dev/null rw,
+  /etc/apache2/apache2.conf r,
+  /etc/apache2/mods-available/access_compat.load r,
+  /etc/apache2/mods-available/alias.load r,
+  /etc/apache2/mods-enabled/ r,
+  /etc/apache2/mods-enabled/** r,
+  /etc/apache2/** r,
+  /etc/gai.conf r,
+  /etc/group r,
+  /etc/host.conf r,
+  /etc/mime.types r,
+  /etc/nsswitch.conf r,
+  /etc/passwd r,
+  /etc/resolv.conf r,
+  /lib64/** mr,
+  /usr/lib64/** mr,
+  /lib/** mr,
+  /usr/lib/** mr,
+  /lib/x86_64-linux-gnu/ld-*.so mr,
+  /run/apache2/apache2.pid w,
+  /run/apache2/** rw, 
+  /tmp/** rw,
+  /usr/sbin/apache2 mr,
+  /usr/share/zoneinfo/** r,
+  /var/log/apache2/** rw,
+  /var/www/ r,
+  /var/www/** r,  
+
+  #^DEFAULT_URI {
+  #}
+
+  #^HANDLING_UNTRUSTED_INPUT {
+  #}
+}
