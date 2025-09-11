@@ -7,7 +7,7 @@ Dieses Repository enthält den Code zum Kurs [Linux Sicherheit und Härtung](htt
 So kannst du dir eine Kopie von diesem Repository erstellen:
 
 ```bash
-git clone 
+git clone https://github.com/samuellenk/LinuxSecurityHardening.git
 ```
 
 ## Feedback und Kontakt
