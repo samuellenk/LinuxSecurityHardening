@@ -1,0 +1,17 @@
+## iptables-Beispiel:
+sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport ssh -j ACCEPT
+sudo iptables -P INPUT DROP
+sudo iptables -I INPUT 1 -i lo -j ACCEPT
+
+## nftables-Beispiel:
+# sudo nft delete table inet ub_filter
+sudo nft add table inet filter
+sudo nft add chain inet filter input { type filter hook input priority 0 \; policy accept\; }
+sudo nft add rule inet filter input tcp dport 22 accept
+sudo nft add rule inet filter input ct state established,related accept
+sudo nft add rule inet filter input iif lo accept
+sudo nft add chain inet filter input { type filter hook input priority 0 \; policy drop\; }
+
+
+
