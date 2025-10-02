@@ -1,0 +1,23 @@
+Abschnitt I: Einrichten eines sicheren Linux-Systems
+
+Kapitel 1: Ausführen von Linux in einer virtuellen Umgebung
+Kapitel 2: Absicherung administrativer Benutzerkonten
+Kapitel 3: Absicherung normaler Benutzerkonten
+Kapitel 4: Absicherung Ihres Servers mit einer Firewall - Teil 1
+Kapitel 5: Absicherung Ihres Servers mit einer Firewall - Teil 2
+Kapitel 6: Verschlüsselungstechnologien
+Kapitel 7: SSH-Härtung
+Kapitel 16: Sicherheitstipps und -tricks für Vielbeschäftigte
+
+Abschnitt II: Erweiterte Techniken zur Sicherung und Härtung
+
+Kapitel 8: Beherrschung der diskretionären Zugriffskontrolle
+Kapitel 9: Zugriffskontrolllisten und gemeinsame Verzeichnisverwaltung
+Kapitel 10: Implementierung der obligatorischen Zugriffskontrolle mit SELinux und AppArmor
+Kapitel 11: Kernelhärtung und Prozessisolierung
+Kapitel 12: Scannen, Überprüfen und Härtung
+Kapitel 13: Protokollierung und Protokollsicherheit
+Kapitel 14: Schwachstellen-Scanning und Intrusion Detection
+Kapitel 15: Verhindern der Ausführung unerwünschter Programme
+
+= Kapitel und Abschnitt entsprechen dem Referenz-Buch

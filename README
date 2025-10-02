@@ -1,0 +1,32 @@
+---
+title: "README ![LSH](images/linux_security_hardening_logo.png){width=20 height=20}"
+subtitle: "Linux Sicherheit und Härtung"
+author: "![SL](images/SL_foto_300.png){width=20 height=20} &copy; [Samuel Lenk](https://linux-trainings.de/)"
+theme: "Luebeck"
+colortheme: "whale"
+aspectratio: 169
+colorlinks: true
+linkcolor: gray
+---
+
+# Linux Security and Hardening  
+
+repository contains material for course **Linux Security and Hardening**
+  
+# genutzte Distributionen
+  
+- [x] [Debian 12](https://www.debian.org/distrib/)
+- [x] [Rocky Linux 9](https://rockylinux.org/download)
+- [x] [OpenSuse 15](https://get.opensuse.org/)
+
+# Quelle  
+  
+- Buch: [Mastering Linux Security and Hardening](https://amzn.eu/d/jeEpUA3) von Donald A. Tevault
+- online unter: [packtpub.com](https://www.packtpub.com/)
+- offline in 3rd edition: book_3rd_edition.pdf
+  
+# Weitere Ressourcen
+
+- [Ubuntu Security](https://ubuntu.com/server/docs/security-introduction)
+- [Redhat Security](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/index)
+- [Suse Security](https://documentation.suse.com/sles/15-SP2/html/SLES-all/book-security.html)
