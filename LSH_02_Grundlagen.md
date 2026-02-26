@@ -283,23 +283,23 @@ Wie kommen diese Oktalzahlen für Berechtigungen zustande?
 
 grundlegende Werte:
 
-| Wert	 | Recht  |
+| Wert  | Recht  |
 |-------|--------|
-| 0     | 	Keine |
-| 1     | 	x     |
-| 2     | 	w     |
-| 4     | 	r     |
+| 0     | keine  |
+| 1     | x      |
+| 2     | w      |
+| 4     | r      |
 
 # Berechtigungen als Oktalzahlen
 
 Kombinationen dieser Werte:
 
-| Wert	 | Recht  |
+| Wert  | Recht  |
 |-------|--------|
-| 3     | 	w+x   |
-| 5     | 	r+x   |
-| 6     | 	r+w   |
-| 7     | 	r+w+x |
+| 3     | w+x    |
+| 5     | r+x    |
+| 6     | r+w    |
+| 7     | r+w+x  |
 
 - ergibt also insgesamt 8 mögliche Kombinationen
 
