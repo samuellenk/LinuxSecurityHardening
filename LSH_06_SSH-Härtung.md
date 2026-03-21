@@ -217,6 +217,9 @@ ssh-audit -c
 4. PAM-Modul anpassen: `sudo nano /etc/pam.d/sshd`
 - auskommentieren: `# @include common-auth`
 - neu darunter einfügen: `auth required pam_google_authenticator.so`
+
+# 2FA mit TOTP: Umsetzung
+
 5. SSH-Konfiguration anpassen: `sudo nano /etc/ssh/sshd_config`
   ```bash
   ChallengeResponseAuthentication yes
