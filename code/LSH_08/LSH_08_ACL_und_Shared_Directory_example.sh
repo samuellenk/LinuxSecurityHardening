@@ -22,7 +22,7 @@ set -euo pipefail                     # stop on errors, undefined vars are fatal
 # Helper functions
 #######################################
 log()   { echo -e "\e[1;34m[+] $*\e[0m"; }
-error() { echo -e "\e[1;31m[-] $*\e[0m" >&2; exit 1; }
+error() { echo -e "\e[1;31m[-] $*\e[0m" >&2; }
 
 #######################################
 # 0 USER LIST – edit these arrays
