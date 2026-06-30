@@ -28,7 +28,7 @@ sudo aa-logprof -f ss.log
 ## profile usr.bin.ss has been updated
 ## see the updated profile:
 sudo less /etc/apparmor.d/usr.bin.ss
-## profile shoudl still be enfored:
+## profile should still be enfored:
 sudo aa-status
 ## but now command should work as expected:
 ss -tuna
