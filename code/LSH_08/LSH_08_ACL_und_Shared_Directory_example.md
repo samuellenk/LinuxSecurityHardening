@@ -65,6 +65,7 @@ sudo chmod o+t "$D"
 
 das tut Victoria:
 ```bash
+cd /marketing
 echo "Das ist für meine Freundin Susi." > victoria.txt
 chmod 600 victoria.txt
 setfacl -m u:susanne:r victoria.txt
